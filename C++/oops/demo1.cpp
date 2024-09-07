@@ -44,7 +44,7 @@ int main()
 
     Hero *ash= new Hero;
     (*ash).health=10;
-    (*ash).setname='P';
+    (*ash).setname('P');
     // cout<<ash.health<<endl;
     // cout<<ash.name<<endl;
 

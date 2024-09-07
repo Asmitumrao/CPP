@@ -17,7 +17,7 @@ bool check_palindrome(int n,int &temp)
 }
 int main()
 {
-    int n=1256521;
+    int n=;
     cout<<check_palindrome(n,n);
     
     return 0;

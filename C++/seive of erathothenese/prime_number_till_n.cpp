@@ -1,15 +1,16 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 void seive(int n)
 {
     int arry[n]={0};
-    for(int i=2;i<=n;i++)
+    for(int i=2; i<=sqrt(n); i++)
     {
         if(arry[i]==0)
         {
-            for(int j=i*i;j<n;j+=i)
+            // cout<<i<<" ";
+            for(int j=i*i; j<n; j+=i)
             {
-                arry[j]==1;
+                arry[j]=1;
             }
 
         }

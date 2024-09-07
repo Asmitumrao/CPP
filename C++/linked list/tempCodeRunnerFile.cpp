@@ -1,1 +1,0 @@
- delete_position(head,2);
